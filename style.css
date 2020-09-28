@@ -148,6 +148,9 @@
      background-color: #911414;
 
  }
+ .btn--long {
+     min-width: 280px;
+ }
 
  /* Featyres
  ==============*/
@@ -295,6 +298,9 @@
  .social {
      display: flex;
  }
+ .social--footer {
+     justify-content: center;
+ }
 
  .social_item {
      display: flex;
@@ -307,6 +313,18 @@
      background-color: #ffffff;
      transition: background .1s linear;
 
+ }
+
+ .social--footer .social_item {
+     background-color: transparent;
+     border-width: 2px;
+     border-color: #ffffff;
+     border-radius: 2px;
+ }
+
+ .social--footer
+ .social_item:hover {
+     background-color: #ffffff;
  }
 
  .social_item:hover {
@@ -323,6 +341,12 @@
      height: 18px;
      transition: fill .1s linear;
  }
+
+ .social--footer .social_icon {
+     fill: #ffffff;
+ }
+
+
 
  /* Reviews
  ==============*/
@@ -375,8 +399,84 @@
      color: #ffffff;
  }
 
+ /* Download
+==============*/
+ .download {
+     margin: 90px 0;
+     text-align: center;
+ }
+
+ .download_title {
+     margin-bottom: 10px;
+     font-size: 28px;
+     color: #2d3033;
+     font-weight: 300;
+ }
+
+ .download_text {
+     font-size: 13px;
+     color: #2d3033;
+     font-weight: 700;
+     text-transform: uppercase;
+     margin-bottom: 30px;
+ }
 
 
+ /* Footer
+ ==============*/
+ .footer {
+     background-color: #3a3e64;
+ }
+
+ .footer_inner {
+     display: flex;
+     flex-wrap: wrap;
+     padding: 70px 0;
+ }
+
+ .footer_block {
+     width: 33.33333%;
+     text-align: center;
+ }
+
+ .footer_title {
+     margin-bottom: 10px;
+     font-size: 14px;
+     font-weight: 700;
+     color: #ffffff;
+     text-transform: uppercase;
+ }
+
+ .footer_addres {
+     color: rgba(255, 255, 255, .5);
+     font-size: 14px;
+     font-style: normal;
+     line-height: 1.5;
+ }
+
+ .footer_text {
+     color: rgba(255, 255, 255, .5);
+     font-size: 14px;
+     line-height: 1.5;
+ }
+
+ /* Copyright
+ ==============*/
+ .copyright {
+     background-color: #313454;
+     padding: 20px 0;
+ }
+
+ .copyright_text {
+     text-align: center;
+     font-size: 14px;
+     line-height: 1.5;
+     color: #808080;
+ }
+
+ .copyright_text span {
+     color: #ffffff;
+ }
 
 
 
