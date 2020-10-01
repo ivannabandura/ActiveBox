@@ -44,6 +44,17 @@
      z-index: 1000;
  }
 
+ .header.fixed {
+     position: fixed;
+     background-color: #31344e;
+     height: auto;
+ }
+
+ .header.fixed .header_inner {
+     padding-top: 15px;
+     padding-bottom: 15px;
+ }
+
  .header_inner {
      display: flex;
      justify-content: space-between;
