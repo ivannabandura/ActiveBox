@@ -367,9 +367,19 @@
      background-color: #53354a;
  }
 
+ .reviews_slider {
+     height: 500px;
+     overflow: hidden;
+ }
+
+ .reviews_slider.slick-initialized {
+     height: auto;
+ }
+
  .reviews_item {
      display: flex;
      flex-wrap: wrap;
+     overflow: hidden;
  }
 
  .reviews_photo {
@@ -409,6 +419,45 @@
      text-transform: uppercase;
      color: #ffffff;
  }
+
+ .slick-dots {
+     justify-content: center;
+     display: flex;
+     margin: 0;
+     padding: 0 0 10px;
+     list-style: none;
+     width: 50%;
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     z-index: 2;
+ }
+
+ .slick-dots li {
+     margin: 0 5px;
+ }
+
+ .slick-dots button{
+     width: 15px;
+     height: 15px;
+     background: #ffffff;
+     border-radius: 50%;
+     border: 0;
+     padding: 0;
+     font-size: 0;
+     color: transparent;
+     opacity: .5;
+     cursor: pointer;
+ }
+
+ .slick-dots .slick-active button {
+     opacity: 1;
+ }
+
+ .slick-dots button:focus {
+     outline: 0;
+ }
+
 
  /* Download
 ==============*/

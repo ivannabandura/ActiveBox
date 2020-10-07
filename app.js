@@ -41,11 +41,23 @@ $(function () {
     );
   });
 
-  /* Nov Toggle */
+  /* Nov Toggle*/
 
   navToggle.on("click", function (event) {
     event.preventDefault();
 
     nav.toggleClass("show");
+  });
+
+  /* Reviews: https://kenwheeler.github.io/slick/ */
+  let slider = $("#reviewsSlider");
+
+  slider.slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    fade: true,
+    arrows: false,
+    dots: true,
   });
 });

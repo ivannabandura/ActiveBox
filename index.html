@@ -73,11 +73,13 @@
             <img src="img/activebox-logo.png" alt="" />
           </div>
           <nav class="nav" id="nav">
-            <a class="nav_ling" href="#" data-scroll="#features">Features</a>
-            <a class="nav_ling" href="#" data-scroll="#works">Works</a>
-            <a class="nav_ling" href="#" data-scroll="#team">Our Team</a>
-            <a class="nav_ling" href="#" data-scroll="#reviews">Testimonials</a>
-            <a class="nav_ling" href="#" data-scroll="#download">Download</a>
+            <a class="nav_ling" href="#features" data-scroll="#features"
+              >Features</a
+            >
+            <a class="nav_ling" href="#works" data-scroll="#works">Works</a>
+            <a class="nav_ling" href="#team" data-scroll="#team">Our Team</a>
+            <a class="nav_ling" href="#reviews" data-scroll="#reviews">Testimonials</a>
+            <a class="nav_ling" href="#download" data-scroll="#download">Download</a>
           </nav>
 
           <button class="burger" type="button" id="navToggle">
@@ -383,17 +385,48 @@
     <!-- Testimonials -->
     <div class="reviews" id="reviews">
       <div class="container">
-        <div class="reviews_item">
-          <div class="reviews_photo">
-            <img class="reviews_img" src="img/reviews/review-1.jpg" alt="" />
-          </div>
-          <div class="reviews_content">
-            <div class="reviews_text">
-              “Integer posuere erat a ante venenatis dapibus posuere velit
-              aliquet. Donec sed odio dui. Aenean eu leo quam...”
+        <div class="reviews_slider" id="reviewsSlider">
+          <div class="slick-item">
+            <div class="reviews_item">
+              <div class="reviews_photo">
+                <img
+                  class="reviews_img"
+                  src="img/reviews/review-1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="reviews_content">
+                <div class="reviews_text">
+                  “Integer posuere erat a ante venenatis dapibus posuere velit
+                  aliquet. Donec sed odio dui. Aenean eu leo quam...”
+                </div>
+                <div class="reviews_autor">
+                  Susan Sims, Interaction Designer at XYZ
+                </div>
+              </div>
             </div>
-            <div class="reviews_autor">
-              Susan Sims, Interaction Designer at XYZ
+          </div>
+
+          <div class="slick-item">
+            <div class="reviews_item">
+              <div class="reviews_photo">
+                <img
+                  class="reviews_img"
+                  src="img/reviews/review-1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="reviews_content">
+                <div class="reviews_text">
+                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. ”
+                </div>
+                <div class="reviews_autor">
+                  Susan Sims, Interaction Designer at XYZ
+                </div>
+              </div>
             </div>
           </div>
         </div>
