@@ -191,7 +191,7 @@
      text-transform: uppercase;
  }
 
- .featyres_text {
+ .features_text {
      font-size: 14px;
      line-height: 1.5;
      color: #6c7279;
@@ -512,7 +512,22 @@
      /* Nav */
      .nav {
          display: none;
+         position: absolute;
+         top: 100%;
+         right: 0;
+         flex-direction: column;
+         width: 100%;
+         text-align: right;
+         background-color: #ffffff;
      }
+
+         .nav_ling {
+             padding: 7px 15px;
+         }
+
+         .nav.show {
+            display: flex;
+         }
 
      /* Burger */
      .burger {
@@ -558,8 +573,8 @@
          font-size: 40px;
      }
 
-     /* Featyres */
-     .featyres_item {
+     /* Features */
+     .features_item {
          width: 50%;
      }
 
